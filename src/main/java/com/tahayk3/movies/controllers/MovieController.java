@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 //Esto es un controlador que trabaja con las solicitudes y respone al usuario
 @RestController
 //Un controlador se activa en base a una anotacion(es como la ruta en otros frameworks)
-@RequestMapping("/api/movies")
+@RequestMapping("/api/v1/movies")
 public class MovieController {
     //Uso del repositorio
     //Autowired envita la generacion de nuevos objetos cada vez que se utiliza el repositorio, este trabajo es delegado a Spring
